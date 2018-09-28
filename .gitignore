@@ -1,5 +1,39 @@
-*
 
+# ignore all
+/*
+
+# except files
 !.gitignore
+!modify_repo.sh
+!README.md
 
-!**/
+# except directories
+!/testcase/
+
+# ignore all
+/testcase/*
+
+# except files
+!/testcase/dummy
+
+# except directories
+!/testcase/A/
+
+# ignore all
+
+/testcase/A/*
+
+# except files
+!/testcase/A/dummy
+
+# except directories
+!/testcase/A/a/
+
+# ignore all
+
+/testcase/A/a/*
+
+# except files
+!/testcase/A/a/dummy
+
+# except directories
